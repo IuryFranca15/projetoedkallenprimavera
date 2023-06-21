@@ -1,0 +1,152 @@
+html {
+    background-image: url("/images/background.jpg");
+    box-shadow: inset 0 0 0 1920px rgba(255, 193, 204,.3);
+    background-color: rgb(255, 193, 204);
+}
+#header {
+    flex-direction: column;
+}
+#festival-logo {
+    padding-top: 1.333vw;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 5.8vw;
+    cursor: default;
+}
+#joaopessoa {
+    margin-top: -1vw;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 900;
+    text-align: center;
+    font-size: 5.2vw;
+    cursor: default;
+    color:#e63348;
+}
+#data {
+    margin-top: -1vw;
+    margin-bottom: 2vw;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.35vw;
+    cursor: default;
+    color:#ff5d70;
+}
+#nav {
+    justify-content: center;
+    gap: 15vw;
+}
+.texto-nav {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.8vw;
+    cursor: default;
+    color:#e63348;
+    text-decoration: none;
+}
+.flex-container {
+    display: flex;
+}
+#lineup {
+    padding-top: 4vw;
+    font-family: 'Staatliches', sans-serif;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    cursor: default;
+}
+#nomebanda {
+    transition: 0.15s;
+}
+.texto-nav:link, .texto-nav:visited {
+    color: #ff5d70;
+    text-decoration: none;
+}
+.texto-nav:hover, .texto-nav:active {
+    color:#EFE9C7;
+    text-decoration: none;
+    transition: 0.15s;
+}  
+#nomebanda:hover {
+    color: #FF465D;
+}
+#bola {
+    padding-left: 0.625vw;
+    padding-right: 0.625vw;
+}
+#headliners {
+    flex-direction: row;
+    font-weight: 800;
+    font-size: 5.4vw;
+}
+#apresentacao {
+    padding-top: 0.8%;
+    padding-left: 0.3125rem;
+    flex-direction: column;
+}
+#linhaapresentacao {
+    font-size: 1.125vw;
+}
+#subheadliners {
+    flex-direction: row;
+    font-weight: 800;
+    font-size: 2.6vw;
+}
+#subsubheadliners {
+    flex-wrap: wrap;
+    flex-direction: row;
+    font-weight: 800;
+    font-size: 1.7vw;
+}
+#ingressos {
+    padding-top: 7vw;
+    font-family: 'Staatliches', sans-serif;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: space-evenly;
+}
+.card {
+    position: relative;
+    width: 10vw;
+    height: 10vw;
+    background: #EFE9C7;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    font-size: 2.6vw;
+    text-align: center;
+    align-content: center;
+}
+#textcard {
+    cursor: default;
+}
+a:link, a:visited {
+    color: black;
+    text-decoration: none;
+}
+a:hover, a:active {
+    color:#FF465D;
+    text-decoration: none;
+    transition: 0.15s;
+}
+#footer {
+    justify-content: space-evenly;
+}
+#footertext {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 500;
+    text-align: center;
+    font-size: 1.5vw;
+    cursor: default;
+    color:#ff5d70;
+    text-decoration: none;
+}
+#footertext:hover {
+    color:#EFE9C7;
+    transition: 0.15s;
+}
